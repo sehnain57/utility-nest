@@ -1,0 +1,32 @@
+name: utility_nest
+description: An ultra-modern, low-permission daily toolkit — World Clock, Habit Tracker, Water Tracker, Random Picker, EMI Calculator, Typing Test, Event Countdown, Device Info.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  google_fonts: ^6.2.1
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  share_plus: ^10.0.2
+  url_launcher: ^6.3.0
+  device_info_plus: ^11.1.1
+  package_info_plus: ^8.1.1
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
